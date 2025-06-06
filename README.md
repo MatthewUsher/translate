@@ -4,7 +4,7 @@
 
 ## What is Tradurre?
 
-Tradurre, an Italian word, means to translate. Tradurrue is a library and application that includes everything necessary to migrate SQL scripts from one database to another. The project has a single goal, to simplify the migration between platforms as painlessly as possible.
+Tradurre, an Italian word, means to translate. Tradurre is a library and application that includes everything necessary to migrate SQL scripts from one database to another. The project has a single goal, to simplify the migration between platforms as painlessly as possible.
 
 While the conversion of SQL from one language to another is important, it is often the first area of investigation in a migration project. Taking weeks to convert the database portion of your application for simple platform validation should take hours, not weeks or months. Tradurre is positioned to help with that initial investigation to allow you to make a platform choice. Tradurre can then be used to do a production SQL code translation during your application migration project.
 
