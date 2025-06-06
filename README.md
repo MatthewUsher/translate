@@ -1,6 +1,6 @@
 # Welcome to Tradurre
 
-[![Main Commit Queue](https://github.com/MatthewUsher/translate/actions/workflows/main_commit.yml/badge.svg?branch=main)](https://github.com/MatthewUsher/translate/actions/workflows/main_commit.yml)
+[![Main Commit Queue](https://github.com/MatthewUsher/translate/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/MatthewUsher/translate/actions/workflows/build.yml)
 
 ## What is Tradurre?
 
