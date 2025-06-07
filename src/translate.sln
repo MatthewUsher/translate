@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tradurre", "libraries\tradurre\tradurre.csproj", "{DBB0207E-6FED-0B1E-DA0C-D764375520A8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_tests", "_tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradurreTests", "..\tests\TradurreTests\TradurreTests.csproj", "{21BA2438-B930-0CB3-2682-54C3A2732DC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,18 @@ Global
 		{DBB0207E-6FED-0B1E-DA0C-D764375520A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBB0207E-6FED-0B1E-DA0C-D764375520A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBB0207E-6FED-0B1E-DA0C-D764375520A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BA2438-B930-0CB3-2682-54C3A2732DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BA2438-B930-0CB3-2682-54C3A2732DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BA2438-B930-0CB3-2682-54C3A2732DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BA2438-B930-0CB3-2682-54C3A2732DC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21BA2438-B930-0CB3-2682-54C3A2732DC6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB243D03-52EE-49C3-8BBE-0F89DF7FE9E9}
 	EndGlobalSection
 EndGlobal
